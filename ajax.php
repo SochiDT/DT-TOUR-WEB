@@ -140,7 +140,7 @@ if(isset($_POST['city'])){
 
 
       var id = $(this).data('pk'); // мой код
-      alert(id);
+
 
       $.ajax({
           type: 'POST',
@@ -333,7 +333,7 @@ if(isset($_POST['tour'])){
     $(".card-click").click(function() {
 
         var id = $(this).data('pk');
-        alert(id);
+        
 
         $.ajax({
             type: 'POST',
@@ -463,9 +463,9 @@ if(isset($_POST['tour'])){
           <div>
             <div class="row align-items-center no-gutters">
               <div class="col">
-                <h4 class="mb-2 page3-text-cener-2">
+                <h5 class="mb-2 page3-text-cener-2">
                   <a href="# "><b><?php echo $row['place']; ?></b></a>
-                </h4>
+              </h5>
               </div>
             </div>
           </div>
@@ -580,7 +580,7 @@ $(document).ready(function() {
     fadeIn(div, 300);
 
   $(".btn_click").click(function() {
-alert();
+
       $.ajax({
           type: 'POST',
           data: {
@@ -635,7 +635,7 @@ alert();
         fadeIn(div, 300);
 
       $(".btn_click").click(function() {
-    alert();
+
 
       });
 
