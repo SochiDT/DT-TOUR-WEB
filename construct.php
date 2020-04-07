@@ -142,7 +142,7 @@
 
 </html>
 <?php
-// $mysql = new mysqli("server115.hosting.reg.ru","u0977049_dt","doublekk55","u0977049_dt");
+
 mysqli_set_charset($mysql,"utf8");
 $name = $_POST['name'];
 $description = $_POST['description'];

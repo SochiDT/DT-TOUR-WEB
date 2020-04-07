@@ -1,5 +1,5 @@
 <?php
-$mysql = new mysqli("server115.hosting.reg.ru","u0977049_dt","doublekk55","u0977049_dt");
+$mysql = new mysqli("HOST","LOGIN","PASS","DB");
 mysqli_set_charset($mysql,'utf8');
 
 ?>
@@ -333,7 +333,7 @@ if(isset($_POST['tour'])){
     $(".card-click").click(function() {
 
         var id = $(this).data('pk');
-        
+
 
         $.ajax({
             type: 'POST',
